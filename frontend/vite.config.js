@@ -6,8 +6,6 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port: 5173,
-    allowedHosts: [
-      "internshipassignment-oqo0.onrender.com", // 👈 add your Render domain here
-    ],
+    allowedHosts: ["internshipassignment-oqo0.onrender.com"],
   },
 });
